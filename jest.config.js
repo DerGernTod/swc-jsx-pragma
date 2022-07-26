@@ -11,6 +11,7 @@ const config = {
         "^.+\\.(t|j)s$": ["@swc/jest", {
             sourceMaps: "inline",
             module: {
+                type: "commonjs",
                 strict: false,
                 strictMode: false
             },
